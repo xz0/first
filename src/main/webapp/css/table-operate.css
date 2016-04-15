@@ -1,0 +1,560 @@
+html, body, * {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+td{
+	word-break: break-all;
+}
+/* 创建修改页面基本样式*/
+.portlet {
+	margin: 10px 20px;
+	border: 1px solid #BDC4FF;
+}
+
+.portlet-title {
+	background-color: #D6DBFF;
+	color: #111;
+	font-size: 150%;
+	text-align: center;
+}
+
+.portlet-title .caption {
+	margin: 1px 10px;
+	margin-top: 0;
+	font-weight: bold;
+	color: #000;
+}
+/* form表单样式*/
+.form .form-group .error-msg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px 0px;
+	text-align:center;
+	border-radius: 4px;
+	border: 1px solid #ebccd1;
+}
+
+.form .form-body .form-group {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.form .form-body .form-group .input-group {
+	width: 100%;
+}
+
+.form .form-body .form-group .input-group span {
+	width: 50%;
+}
+
+.form .form-body .form-group textarea {
+	height: 40px;
+}
+
+.form .form-body .form-group .form-control {
+	border: 1px solid #ccc;
+	height: 34px;
+}
+
+.form .form-body .form-group .form-control:focus {
+	border: 1px solid #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(102, 175, 233, .6);
+}
+
+.form .form-body .help-block {
+	margin-bottom: 5px;
+}
+
+.form .form-body .form-group .has-error {
+	border-color: red !important;
+}
+
+.form .form-body .form-group .must-sign {
+	text-align: left;
+	color: red;
+	font-size: 16px;
+}
+
+.form .form-actions {
+	padding: 20px 10px;
+	text-align: center;
+	background-color: #f5f5f5;
+	border-top: 1px solid #e5e5e5;
+}
+
+.need-border {
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	padding: 2px 5px;
+	min-height: 26px;
+	margin: 0;
+}
+/* form表单紧凑型样式*/
+.compact-form {
+	font-size: 12px;
+}
+
+.form .compact-form .form-group {
+	margin-bottom: 1px;
+}
+
+.form .compact-form .need-border {
+	margin-bottom: 1px;
+}
+
+.compact-form .input-group-addon {
+	font-size: 12px;
+}
+
+.compact-form .form-control {
+	padding: 1px 2px;
+	font-size: 12px;
+}
+
+.input-text-sm {
+	width: 100px !important;
+}
+
+.myBtn.btn {
+	color: white;
+	background-color: #22a9f1;
+	border-color: "";
+}
+
+.myBtn.btn:visited {
+	color:#f12241;
+	background-color: #22f2d2;
+}
+
+
+/* 按钮默认蓝色样式*/
+.blue.btn {
+	color: white;
+	background-color: #8080ff;
+	border-color: "";
+}
+
+.blue.btn:hover, .blue.btn:focus, .blue.btn:active, .blue.btn.active {
+	color: white;
+	background-color: #9999ff;
+}
+
+.open .blue.btn.dropdown-toggle {
+	color: white;
+	background-color: #9999ff;
+}
+
+.blue.btn:active, .blue.btn.active {
+	background-image: none;
+	background-color: #6666ff;
+}
+
+.blue.btn:active:hover, .blue.btn.active:hover {
+	background-color: #6666ff;
+}
+
+.open .blue.btn.dropdown-toggle {
+	background-image: none;
+}
+
+.blue.btn.disabled, .blue.btn.disabled:hover, .blue.btn.disabled:focus,
+	.blue.btn.disabled:active, .blue.btn.disabled.active, .blue.btn[disabled],
+	.blue.btn[disabled]:hover, .blue.btn[disabled]:focus, .blue.btn[disabled]:active,
+	.blue.btn[disabled].active, fieldset[disabled] .blue.btn, fieldset[disabled] .blue.btn:hover,
+	fieldset[disabled] .blue.btn:focus, fieldset[disabled] .blue.btn:active,
+	fieldset[disabled] .blue.btn.active {
+	background-color: #22a9f1;
+}
+/* 按钮默认无色样式，鼠标划过加边框*/
+.transparent.btn {
+	color: #22a9f1;
+	background-color: transparent rgba(0, 0, 0, 0.15);
+	border-color: transparent;
+}
+
+.transparent.btn:hover, .transparent.btn:focus, .transparent.btn:active,
+	.transparent.btn.active {
+	color: #22a9f1;
+	background-color: transparent rgba(0, 0, 0, 0.15);
+	border: 1px solid #999;
+}
+
+tr:hover>td>a.transparent.btn,tr:hover>td>a.btn.transparent {
+	color: #fff;
+}
+
+.open .transparent.btn.dropdown-toggle {
+	color: #22a9f1;
+	background-color: transparent rgba(0, 0, 0, 0.9);
+}
+
+.transparent.btn:active, .transparent.btn.active {
+	color: #2929ff;
+	background-image: none;
+	background-color: transparent rgba(0, 0, 0, 0.8);
+}
+
+.transparent.btn:active:hover, .transparent.btn.active:hover {
+	color: #2929ff;
+	background-color: transparent rgba(0, 0, 0, 0.8);
+}
+
+.open .transparent.btn.dropdown-toggle {
+	background-image: none;
+}
+
+.transparent.btn.disabled, .transparent.btn.disabled:hover, .transparent.btn.disabled:focus,
+	.transparent.btn.disabled:active, .transparent.btn.disabled.active,
+	.transparent.btn[disabled], .transparent.btn[disabled]:hover,
+	.transparent.btn[disabled]:focus, .transparent.btn[disabled]:active,
+	.transparent.btn[disabled].active, fieldset[disabled] .transparent.btn,
+	fieldset[disabled] .transparent.btn:hover, fieldset[disabled] .transparent.btn:focus,
+	fieldset[disabled] .transparent.btn:active, fieldset[disabled] .transparent.btn.active
+	{
+	background-color: transparent rgba(0, 0, 0, 0.15);
+}
+/* 渐变色*/
+.color-change {
+	background-color: #E4E0FF;
+	background: -moz-linear-gradient(top, #F2F0FF, #E4E0FF);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#F2F0FF),
+		to(#e0ecff));
+}
+/* 页面头部操作栏*/
+.window-operate {
+	padding: 10px;
+}
+
+.window-operate2 {
+	width:100%;
+	height:50px;
+	padding: 10px;
+}
+
+.window-operate .input-group {
+	margin-left: 5px;
+}
+.window-operate .form-inline .form-group label{
+	display: inline;
+}
+/* 页面主体操作栏*/
+.window-body {
+	margin: 10px 20px;
+	border: 1px solid #BDC4FF;
+}
+
+/* 区域外提示行文本*/
+.message {
+	margin: 5px 10px;
+}
+
+.message .error-msg {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px 10px;
+	border-radius: 4px;
+	border: 1px solid #ebccd1;
+}
+
+.message .msg {
+	color:red;
+	font-size:20px;
+	text-align: center;
+	padding: 10px 10px;
+	border-radius: 4px;
+	border: 1px solid #ebccd1;
+}
+
+/* table表格基本样式 */
+.table-list th {
+	font-size: 105%;
+}
+
+.table-list td {
+	font-size: 95%;
+}
+/* table名称显示*/
+.table-list .list-title {
+	background-color: #D6DBFF;
+	font-size: 125%;
+	font-weight: bold;
+	color: #000;
+}
+
+.table-list>thead>tr>th, .table-list>thead>tr>td {
+	padding: 4px;
+	height: 30px;
+	text-align: center;
+}
+.table-list>thead>tr>th{
+	vertical-align: middle;
+	background-color: #f5f5f5;
+}
+/* table中隔行换色及划过变色*/
+.table-list>tbody>tr>td {
+	padding: 1px 3px;
+	text-align: left;
+	vertical-align: middle;
+	color: #4B4B4B;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	/* background-color: #d6efff; */
+	background-color: #F0F1FF;
+}
+
+.table-hover>tbody>tr:hover {
+	/* background-color: #f0f7fc; */
+	color:#fff;
+	background-color: #9A85FA;
+	/* #85FAD5 */
+}
+
+.table-hover>tbody>tr:hover>td {
+	color:#fff;
+}
+
+/* table中操作按钮*/
+.table-list .btn {
+	padding: 0 8px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+/* table中错误信息*/
+.table-list .error-msg {
+	color: red;
+	font-size: 120%;
+}
+/* table中有时需要将某列td进行左对齐*/
+.table-list>tbody>tr>td.list-td-exceed {
+	text-align: left;
+}
+/* table中一个td中放置多项参数，此样式用于区别参数名称 */
+.exceed-title {
+	color: #000;
+	font-weight: bold;
+}
+/* table的下部分，可以放置分页 */
+.list-foot {
+	margin: 5px;
+}
+/* table外的文本框，其中可以添加按钮或者文本 */
+.list-foot .foot-group {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin-left: 15px;
+}
+/* 表格操作栏，鼠标划过向左展示全部按钮*/
+.dropleft .dropleft-menu {
+	list-style: none;
+	position: absolute;
+	z-index: 1000;
+	float: left;
+	top: auto;
+	left: 0px;
+	margin: 0;
+	padding: 1px 5px;
+	/* display: none; */
+	width: auto;
+	background-color: #E7EEFE;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: none;
+}
+
+.dropleft .dropleft-menu>li {
+ 	float: left;
+	position: relative;
+	display: block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.dropleft .dropleft-menu>li>a {
+	height: 24px;
+	padding: 1px 5px;
+	font-weight: 400;
+	color: #fff;
+	border-radius: 4px;
+	margin: 0 2px;
+	background-color: #C4B6FC;
+	border: 1px solid #C4B6FC;
+	cursor: pointer;
+	font-size: 100%;
+}
+
+.menu-btn-default.btn {
+	color: #000;
+	background-color: #C4B6FC;
+	border: 1px solid #C4B6FC;
+}
+
+.menu-btn-default.btn:hover, .menu-btn-default.btn:focus, .menu-btn-default.btn:active,
+	.menu-btn-default.btn.active {
+	color: #fff;
+	background-color: #C28AFF;
+	border: 1px solid #C28AFF;
+}
+
+.open .menu-btn-default.btn.dropdown-toggle {
+	color: #000;
+	background-color: #DDBDFF;
+}
+
+.menu-btn-default.btn:active, .menu-btn-default.btn.active {
+	background-image: none;
+	background-color: #C28AFF;
+}
+
+.menu-btn-default.btn:active:hover, .menu-btn-default.btn.active:hover {
+	background-color: #C28AFF;
+}
+
+.open .menu-btn-default.btn.dropdown-toggle {
+	background-image: none;
+}
+
+.menu-btn-default.btn.disabled, .menu-btn-default.btn.disabled:hover, .menu-btn-default.btn.disabled:focus,
+	.menu-btn-default.btn.disabled:active, .menu-btn-default.btn.disabled.active,
+	.menu-btn-default.btn[disabled], .menu-btn-default.btn[disabled]:hover,
+	.menu-btn-default.btn[disabled]:focus, .menu-btn-default.btn[disabled]:active,
+	.menu-btn-default.btn[disabled].active, fieldset[disabled] .menu-btn-default.btn,
+	fieldset[disabled] .menu-btn-default.btn:hover, fieldset[disabled] .menu-btn-default.btn:focus,
+	fieldset[disabled] .menu-btn-default.btn:active, fieldset[disabled] .menu-btn-default.btn.active
+	{
+	background-color: #a3d3ff;
+}
+/* 字体大小 */
+.font-size-35{
+	font-size: 35px;
+}
+
+.font-size-12 {
+	font-weight:normal;
+	font-size: 12px;
+}
+/* 定位高度 */
+.textarea-minheight{
+	min-height:80px;
+}
+.text-height{
+	height:80px;
+	min-height:80px;
+}
+.text-height-large{
+	height:240px;
+	min-height:240px;
+}
+/* 表格内容位置 */
+.td-align-top{
+	vertical-align: top !important;
+}
+.td-align-middle{
+	vertical-align: middle !important;
+}
+.td-align-bottom{
+	vertical-align: bottom !important;
+}
+/* 文本位置 */
+.list-align-left {
+	text-align: left !important;
+}
+
+.list-align-center {
+	text-align: center !important;
+}
+
+.list-align-right {
+	text-align: right !important;
+}
+.text-padding-left-null{
+	padding-left: 0 !important;
+}
+/* 文本加粗 */
+.list-font-bold {
+	font-weight: bold !important;
+}
+/* 文本颜色 */
+.list-font-blue {
+	color: blue !important;
+}
+
+.list-font-red {
+	color: red !important;
+}
+
+.list-font-green {
+	color: green !important;
+}
+/* 边框颜色 */
+.border-color-a1b1ff {
+	border-color: #a1b1ff !important;
+}
+
+.border-color-4b8df8 {
+	border-color: #4b8df8 !important;
+}
+/* 背景颜色 */
+.background-color-eee {
+	background-color: #eee !important;
+}
+.background-color-fcfcfc {
+	background-color: #fcfcfc !important;
+}
+.background-color-e1ecfe{
+	background-color: #e1ecfe;
+}
+.background-color-e9fafe{
+	background-color: #e9fafe;
+}
+
+/* 模态框 */
+.modal-dialog {
+	margin-top: 20%;
+}
+
+.modal{
+	height: 100%;
+	font-size: 12px;
+}
+.modal-header{
+	min-height:27px !important;
+	padding: 5px 15px;
+}
+.modal-body{
+	color:#000;
+	font-size:18px;
+	text-align:center;
+}
+.modal-footer{
+	font-size: 14px;
+	padding: 6px 12px;
+	text-align:center !important;
+}
+.form-horizontal .form-group{
+	margin: 0;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.modal .help-block{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.modal .form-control{
+	height: 25px;
+	padding: 2px 12px;
+}
+.modal .small-btn{
+	padding: 0 8px;
+}
+
+ul.ztree {margin-top: 10px;border: 1px solid #617775;background: #f0f6e4;width:220px;height:360px;overflow-y:scroll;overflow-x:auto;}
+.float-right{
+	float:right;
+}
